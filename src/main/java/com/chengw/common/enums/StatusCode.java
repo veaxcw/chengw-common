@@ -6,9 +6,24 @@ package com.chengw.common.enums;
  */
 public enum StatusCode implements AbstractStatusCode {
 
+    /**
+     * 响应成功
+     */
     OK(200,"成功"),
+
+    /**
+     * 响应失败
+     */
     FAIL(400,"操作失败"),
+
+    /**
+     * 验证码错误
+     */
     FAIL_C(401,"验证码错误"),
+
+    /**
+     * 用户名错误
+     */
     FAIL_P(402,"用户名或者密码错误")
     ;
 

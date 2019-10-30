@@ -50,7 +50,7 @@ public class JwtTokenUtil {
     /**
      * @return 生成令牌
      */
-    public String gegenrateToken(){
+    public String generateToken(){
         return UUID.randomUUID().toString();
     }
 
